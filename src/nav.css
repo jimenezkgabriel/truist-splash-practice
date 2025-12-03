@@ -1,19 +1,22 @@
 :root {
   --truist-purple: #4f2d7f;
+  --truist-white: #ffffff;
+  --truist-black: #000000;
 }
 
 .top-nav {
-  background-color: var(--truist-purple); /* Truist Dark Purple */
+  background-color: var(--truist-purple);
 }
 
 .bot-nav {
-  background-color: #ffffff;
+  background-color: var(--truist-white);
 }
 
-.nav-link {
-  color: #ffffff !important;
+/* Link colors */
+.top-nav .nav-link {
+  color: var(--truist-white);
 }
 
 .bot-nav .nav-link {
-  color: #000000 !important;
+  color: var(--truist-black);
 }
