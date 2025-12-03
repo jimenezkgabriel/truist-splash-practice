@@ -17,13 +17,9 @@
   background-color: var(--truist-purple);
   border-color: var(--truist-purple);
 }
-/* Backgrounds */
+
 .top-nav {
   background-color: var(--truist-purple);
-}
-
-.bot-nav {
-  background-color: var(--truist-white);
 }
 
 .top-nav .nav-link {
@@ -31,13 +27,52 @@
   text-decoration: none;
   transition: color 0.2s ease, text-decoration 0.2s ease;
 }
-/*Hover Effect*/
+
 .top-nav .nav-link:hover {
   color: var(--truist-white);
   text-decoration: underline;
 }
 
+.bot-nav {
+  background-color: var(--truist-white);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.bot-nav .navbar-brand {
+  margin-right: 2rem;
+  flex-shrink: 0;
+}
+
+.bot-nav .container-fluid {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.bot-nav .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 0;
+  padding: 0;
+}
+
 .bot-nav .nav-link {
   color: var(--truist-black);
   text-decoration: none;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+}
+
+.bot-nav .btn {
+  margin-left: auto;
 }
