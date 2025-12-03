@@ -1,0 +1,17 @@
+:root {
+    --truist-purple-1: #4f2d7f;
+    --truist-purple-2: #2E1A47;
+    --truist-purple-3: #A6A3E0;
+}
+
+.form-container {
+    background-color: var(--truist-purple-2);
+    /* Truist Dark Purple */
+    padding: 20px;
+}
+
+.btn.btn-primary {
+    background-color: var(--truist-purple-3);
+    border: none;
+    color: var(--truist-purple-1);
+}
