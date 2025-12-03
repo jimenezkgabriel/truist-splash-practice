@@ -5,6 +5,18 @@
   --truist-text: rgb(201, 199, 255);
 }
 
+.btn {
+  background-color: rgb(114, 86, 156);
+  border-color: var(--truist-purple);
+  border-radius: 50px;
+  font-weight: 600;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--truist-purple);
+  border-color: var(--truist-purple);
+}
 /* Backgrounds */
 .top-nav {
   background-color: var(--truist-purple);
