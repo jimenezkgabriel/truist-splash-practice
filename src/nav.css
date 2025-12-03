@@ -1,0 +1,19 @@
+:root {
+  --truist-purple: #4f2d7f;
+}
+
+.top-nav {
+  background-color: var(--truist-purple); /* Truist Dark Purple */
+}
+
+.bot-nav {
+  background-color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.bot-nav .nav-link {
+  color: #000000 !important;
+}
