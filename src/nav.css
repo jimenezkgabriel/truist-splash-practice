@@ -1,9 +1,11 @@
 :root {
-  --truist-purple: #4f2d7f;
-  --truist-white: #ffffff;
-  --truist-black: #000000;
+  --truist-purple: rgb(46, 26, 71);
+  --truist-white: rgb(255, 255, 255);
+  --truist-black: rgb(0, 0, 0);
+  --truist-text: rgb(201, 199, 255);
 }
 
+/* Backgrounds */
 .top-nav {
   background-color: var(--truist-purple);
 }
@@ -12,11 +14,18 @@
   background-color: var(--truist-white);
 }
 
-/* Link colors */
 .top-nav .nav-link {
+  color: var(--truist-text);
+  text-decoration: none;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+/*Hover Effect*/
+.top-nav .nav-link:hover {
   color: var(--truist-white);
+  text-decoration: underline;
 }
 
 .bot-nav .nav-link {
   color: var(--truist-black);
+  text-decoration: none;
 }
